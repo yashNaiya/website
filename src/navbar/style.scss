@@ -1,0 +1,12 @@
+.link{
+   border-bottom: 3px solid transparent;
+   text-decoration: none;
+   :hover{
+    animation: ul 1s forwards;
+   }
+}
+
+@keyframes ul {
+    from {border-bottom: 3px solid transparent;}
+  to {border-bottom: 3px solid #F9BE08;}
+}

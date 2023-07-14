@@ -1,0 +1,16 @@
+#contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: fit-content;
+    margin: auto;
+}
+
+#my-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 40vh;
+    justify-content: space-evenly;
+}
