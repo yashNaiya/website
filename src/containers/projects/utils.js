@@ -13,7 +13,7 @@ const data ={
         link:'https://github.com/yashNaiya/bry'
     },
     {
-        name:'E-commerce website for restarant',
+        name:'E-commerce website for restaurant',
         desc:'Online order placement website for a pickup restaurant having multiple pages for user experience with admin side included. Created using MERN stack.',
         image:bombay,
         link:'https://github.com/yashNaiya/restaurant'

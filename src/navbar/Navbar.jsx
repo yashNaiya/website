@@ -44,7 +44,7 @@ const Navbar = (props) => {
                     <Link style={{ textDecoration: 'none' }} onMouseOver={(e) => {
                         e.target.style.cursor = 'pointer'
                     }} to='/contact'>
-                        <Typography color={'secondary.main'} fontSize={'22px'}>Contect</Typography>
+                        <Typography color={'secondary.main'} fontSize={'22px'}>Contact</Typography>
                     </Link>
                 </Box>
             </Box> ||
