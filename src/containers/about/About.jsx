@@ -1,6 +1,6 @@
 import { Box, Button, Typography } from '@mui/material'
 import React from 'react'
-import './styles.scss'
+import './styles.css'
 import { ArrowRight } from '@mui/icons-material'
 
 const About = () => {

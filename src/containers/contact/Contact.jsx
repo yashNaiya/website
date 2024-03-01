@@ -1,6 +1,6 @@
 import { Box, Button, TextField, Typography } from '@mui/material'
 import React from 'react'
-import './styles.scss'
+import './styles.css'
 import { useForm, ValidationError } from '@formspree/react';
 
 const Contact = () => {

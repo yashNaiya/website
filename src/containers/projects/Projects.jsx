@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.scss'
+import './styles.css'
 import { Box, Button, Typography } from '@mui/material'
 import data from './utils'
 const Projects = () => {

@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import image from '../../Assets/pfp.png'
 import React from 'react'
-import './styles.scss'
+import './styles.css'
 import { TypeAnimation } from 'react-type-animation'
 const Landing = () => {
     return (

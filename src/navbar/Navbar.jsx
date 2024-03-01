@@ -1,6 +1,6 @@
 import { Box, IconButton, Typography } from '@mui/material'
 import React from 'react'
-import './style.scss'
+import './style.css'
 import { Link } from 'react-router-dom'
 import { Dehaze } from '@mui/icons-material'
 
