@@ -19,14 +19,25 @@ const Resume = () => {
         <Box bgcolor={'#1d1d1d'} width={'100%'} minHeight={'100vh'}>
             <Box display={'flex'} justifyContent={'center'} flexDirection={'column'} alignItems={'center'} paddingY={'10rem'}>
                 <Button download href={pdf} variant='contained'>Download Resume</Button>
-                <div style={{paddingTop:"5px",paddingBottom:"5px"}}>
-                    <SimpleImageSlider
-                        width="60rem"
-                        height={1200}
-                        images={images}
-                        showBullets={true}
-                        showNavs={false}
-                    />
+                <div style={{ paddingTop: "5px", paddingBottom: "5px" }}>
+                    {window.innerWidth >= 700 &&
+                        <SimpleImageSlider
+                            width={900}
+                            height={1200}
+                            images={images}
+                            showBullets={true}
+                            showNavs={false}
+                        />
+                        ||
+                        <SimpleImageSlider
+                            width={300}
+                            height={400}
+                            images={images}
+                            showBullets={true}
+                            showNavs={false}
+                        />
+                    }
+
                 </div>
                 <Button download href={pdf} variant='contained'>Download Resume</Button>
             </Box>
