@@ -17,11 +17,11 @@ const images = [
 const Resume = () => {
     return (
         <Box bgcolor={'#1d1d1d'} width={'100%'} minHeight={'100vh'}>
-            <Box display={'flex'} flexDirection={'column'} alignItems={'center'} paddingY={'10rem'}>
+            <Box display={'flex'} justifyContent={'center'} flexDirection={'column'} alignItems={'center'} paddingY={'10rem'}>
                 <Button download href={pdf} variant='contained'>Download Resume</Button>
                 <div style={{paddingTop:"5px",paddingBottom:"5px"}}>
                     <SimpleImageSlider
-                        width={896}
+                        width="60rem"
                         height={1200}
                         images={images}
                         showBullets={true}
