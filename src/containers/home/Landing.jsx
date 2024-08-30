@@ -5,8 +5,8 @@ import './styles.css'
 import { TypeAnimation } from 'react-type-animation'
 const Landing = () => {
     return (
-        <Box width={"90%"} height={'100vh'} bgcolor={'secondary.main'}>
-            <Box display={'flex'} width='100%' marginTop={'10rem'} position={'absolute'} flexDirection={'row'} height={'fit-content'}>
+        <Box width={"90%"} height={'100vh'} bgcolor={'#000000'}>
+            <Box display={'flex'} width='100%' marginTop={'10rem'} position={'absolute'} flexDirection={'row'} height={'fit-content'} >
                 <Box width={'100%'} display={'flex'} flexWrap={'wrap'} sx={{flexDirection: 'row' }} id={window.innerWidth>=700?'home':'mobilehome'} paddingY={'35px'}>
                     <Box>
                         <Typography variant='h3' fontWeight={'bold'} color={'secondary.main'}>Hii There!</Typography>

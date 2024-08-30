@@ -6,7 +6,7 @@ import { Dehaze } from '@mui/icons-material'
 
 const Navbar = (props) => {
     return (
-        <Box position='fixed' zIndex={'1000'} bgcolor={'#1d1d1d'} width={'100%'} height={'6rem'} display={'flex'} flexDirection={'row'} alignItems={'center'} justifyContent={'space-between'}>
+        <Box position='fixed' zIndex={'1000'} bgcolor={'#000000'} width={'100%'} height={'6rem'} display={'flex'} flexDirection={'row'} alignItems={'center'} justifyContent={'space-between'}>
             <Box marginLeft={'2rem'}>
                 <Typography fontWeight={'bold'} color={'primary.main'} variant='h3'>Yn.</Typography>
             </Box>

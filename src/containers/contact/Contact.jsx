@@ -9,7 +9,7 @@ const Contact = () => {
         window.location.reload()
     }
     return (
-        <Box width={'100%'} paddingTop={'10rem'} minHeight={'100vh'} bgcolor={'#1d1d1d'}>
+        <Box width={'100%'} paddingTop={'10rem'} minHeight={'100vh'} bgcolor={'#000000'}>
             <Box id='contact'>
                 <Typography fontWeight={'bold'} variant='h3' color={'secondary.main'}>Let's<span style={{ color: '#F9BE08' }}> Talk.</span></Typography>
                 <Box display={'flex'} alignItems={'center'} width={'100%'} justifyContent={'center'}>
@@ -32,10 +32,11 @@ const Contact = () => {
                             variant='outlined'
                             id="message"
                             fullWidth
-                            minRows={3}
+                            // multiline = {true}
+                            // rows={5}
                             placeholder='message'
                             name="message"
-                            sx={{ input: { color: '#DFDFD9 ' },border:'1px solid #F9BE08' }} 
+                            sx={{input: { color: '#DFDFD9 ' },border:'1px solid #F9BE08' }} 
                             />
                         <ValidationError
                             prefix="Message"

@@ -5,7 +5,7 @@ import { ArrowRight } from '@mui/icons-material'
 
 const About = () => {
   return (
-    <Box display={'flex'} paddingY={'10rem'} flexDirection={'column'} alignItems={'center'} width={'100%'} minHeight={'100vh'} bgcolor={'#1d1d1d'}>
+    <Box display={'flex'} paddingY={'10rem'} flexDirection={'column'} alignItems={'center'} width={'100%'} minHeight={'100vh'} bgcolor={'#000000'}>
       <Box sx={{ marginX: '4rem', width: { xs: '60%', mid: '40%' } }}>
         <Typography fontWeight={'bold'} variant='h3' color={'secondary.main'}>About <span style={{ color: '#F9BE08' }}>Me.</span></Typography>
         <Typography fontSize={'20px'} variant='h6' color={'secondary.main'}>Hi Everyone,I am <span style={{ color: '#F9BE08' }}>Yash Naiya</span> from <span style={{ color: '#F9BE08' }}>Gujarat,India.</span></Typography>

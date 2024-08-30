@@ -16,7 +16,7 @@ const images = [
 ];
 const Resume = () => {
     return (
-        <Box bgcolor={'#1d1d1d'} width={'100%'} minHeight={'100vh'}>
+        <Box bgcolor={'#000000'} width={'100%'} minHeight={'100vh'}>
             <Box display={'flex'} justifyContent={'center'} flexDirection={'column'} alignItems={'center'} paddingY={'10rem'}>
                 <Button download href={pdf} variant='contained'>Download Resume</Button>
                 <div style={{ paddingTop: "5px", paddingBottom: "5px" }}>
